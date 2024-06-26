@@ -1,3 +1,11 @@
+
 .navigation{
    background-color: black; 
+}
+p {
+   color: white;
+}
+.icons{
+   background-color: white;
+   width: 18px;
 }
