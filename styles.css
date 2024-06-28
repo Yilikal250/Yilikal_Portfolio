@@ -9,7 +9,7 @@ header {
    padding-left: 20px;
    padding-right: 10px;
    padding-top: 18px;
-   margin-right: 25px;
+   margin-right: 5px;
    margin-bottom: 0px;
    padding-bottom: 15px;
 }
@@ -22,14 +22,14 @@ header {
 .nav {
    display: inline-block;
    font-family: sans-serif;
-   font-size:1.25rem; 
+   font-size: 1.25rem; 
 }
 p {
    color: white;
    display: inline-block;
 }
 
-.icons{
+.icons {
    background-color: white;
    width: 18px;
 }
@@ -37,9 +37,18 @@ p {
    font-size: 20px;
    color: transparent;
    background-clip: text;
-   background-image: linear-gradient(to right, white,white,white);
+   background-image: linear-gradient(to right, tomato, tomato, tomato);
+}
+.hover-div:hover h2 {
+   color: pink;
 }
 
+ul li a:hover p {
+   color: tomato;
+}
+ul li a:hover i {
+   color: white;
+}
 a {
    text-decoration: none;
    display: flex;
@@ -49,37 +58,36 @@ a {
    margin-bottom: 14px;
    margin-top: 5px;
    font-family: sans-serif;
-   font-size:0.99rem;
-   font-weight: bolde; 
+   font-size: 0.99rem;
+   font-weight: bold;
 }
-ul {
-   padding-bottom: 1px;
+.hidden {
+   display: none;
 }
-.fa-solid fa-bars{
-   border-style: solid;
-   border-color: white;
+.visible {
+   max-height: 500px; /* Adjust based on content */
+   opacity: 1;
+   transform: translateY(0);
 }
-/* hr {
-   height: 0.01px; 
-   margin-left: 20px;
-   margin-right: 20px;   
-} */
-.humberger hr {
-   width: 30px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   height: 0px;
-   background-color: #333 ;
+   
+#hamburger hr {
+   width: 20px;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   cursor: pointer;
 }
-
-.humberger {
+#hamburger {
+   height: 28px;
    padding-left: 15px;
    padding-right: 15px;
-   border-style:ridge;
+   padding-top: 6px;
+   padding-bottom: 5px;
+   border-style: ridge;
    border-width: 0.1px;
    border-color: white;
    border: 1px solid transparent;
    box-shadow: 0 0 0px 1px rgba(239, 225, 225, 0.5);
    border-radius: 6px;
+   margin-left: 190px;
+   cursor: pointer;
 }
-

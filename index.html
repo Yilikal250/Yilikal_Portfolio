@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -11,15 +11,15 @@
     <nav class="navigation">
         <header>
             <p class="nav">Navigation</p>
-            <div class="humberger">
+            <div id="hamburger">
                  <hr>
                  <hr>
                  <hr>
             </div>
         </header>
         
-        <ul>
-            <li >
+        <ul id="toggleList" class="hidden">
+            <li>
                 <a class="home" href="default.asp">
                 <p>Home </p>
                 <i class="fa-solid fa-house-user"></i>
@@ -34,7 +34,7 @@
             <hr>
             <li>
                 <a href="contact.asp"> 
-                    <p>Experiance</p> 
+                    <p>Experience</p> 
                     <i class="fa-solid fa-star"></i></a>
             </li>
             <hr>
@@ -58,6 +58,6 @@
             </li>
           </ul>
     </nav>
-
+<script src="script.js"></script>
 </body>
 </html>
