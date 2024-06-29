@@ -2,6 +2,9 @@
    margin: 0;
    padding: 0;
 }
+body {
+   background-color: rgb(238, 238, 57);
+   }
 
 header {
    display: flex;
@@ -17,6 +20,21 @@ header {
 .navigation {
    background-color: #333; 
    margin: 0;
+}
+.intro1st {
+   background-color: white;
+   height: 400px;
+   margin-left: 15px;
+   margin-top: 15px;
+   margin-right:15px;  
+
+}
+.intro {
+   background-color: white;
+   height: 400px;
+   margin-left: 15px;
+   margin-top: 15px;
+   margin-right:15px;
 }
 
 .nav {
@@ -90,4 +108,52 @@ a {
    border-radius: 6px;
    margin-left: 190px;
    cursor: pointer;
+}
+.intro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.intro-name p {
+   display: block;
+   margin-top: 10px;
+   color: black;
+   margin-left: 40px;
+   font-family: sans-serif;
+}
+.cursor {
+   font-weight: normal;
+   font-size: 24px;
+   color: black;
+   animation: blink 0.7s step-end infinite;
+   font-size: 30px;
+}
+#iam {
+   color: crimson;
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: 43px;
+}
+#name {
+   font-size: 50px;
+   font-weight: bold;
+   
+}
+#Fname {
+   font-size: 50px;
+   font-weight: bold;
+}
+#typing-text {
+   margin-left: 50px;
+   font-size: 30px;
+   font-weight: bold;
+   color: #333;
+}
+.typing-container{
+   margin-top: 20px;
+}
+
+@keyframes blink {
+   from, to { opacity: 1; }
+   50% { opacity: 0; }
 }
