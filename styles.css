@@ -112,8 +112,32 @@ a {
 .intro {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   padding-top: 10px;
 }
+.resume {
+display: flex;
+flex-direction: row;
+flex: 1;
+}
+#resume {
+background-color: black;
+color: tomato;
+}
+#contact {
+   background-color: tomato;
+}
+.fa-handshake {
+   background-image: linear-gradient(to right, black, black, black);
+}
+
+.resume button {
+   flex: 1;
+   height: 50px;
+   margin-top: 126px;
+   font-size: 18px;
+   font-weight: bold;
+
+   }
 .intro-name p {
    display: block;
    margin-top: 10px;
@@ -148,6 +172,7 @@ a {
    font-size: 30px;
    font-weight: bold;
    color: #333;
+   
 }
 .typing-container{
    margin-top: 20px;
